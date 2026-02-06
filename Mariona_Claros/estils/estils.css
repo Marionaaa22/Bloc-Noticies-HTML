@@ -1,0 +1,26 @@
+.columna {
+    width: 450px;
+    margin: auto;
+}
+
+.data {
+    font-size: 0.9em;
+    color: #888;
+    margin-top: 5px;
+}
+
+.autor {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 5px;
+}
+
+h1 {
+    color: darkred;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 32px;
+}
+
+a {
+    color: purple;
+}
