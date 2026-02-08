@@ -15,6 +15,13 @@
     margin-top: 5px;
 }
 
+.info {
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    justify-content: flex-start;
+}
+
 h1 {
     color: darkred;
     font-family: 'Archivo Black', sans-serif;
