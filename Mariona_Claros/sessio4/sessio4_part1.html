@@ -1,45 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Vina+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../estils/estils_sessio4.css">
     <title>Divisió Lliga</title>
 </head>
-<body>
-    <h1>Taula de la lliga</h1>
-    <table>
-        <thead>
-            <tr>
-                <th>Posició</th>
-                <th>Equip</th>
-                <th>PJ</th>
-                <th>V</th>
-                <th>E</th>
-                <th>D</th>
-                <th>GF</th>
-                <th>GC</th>
-                <th>DG</th>
-                <th>Punts</th>
-            </tr>
-        </thead>
-           <tr>
-                <td>
-                    1
-                </td>
-                <td>
-                    Barcelona
-                </td>
-                <td>
-                    40
-                </td>
-                <td>
-                    30
-                </td>
-                <td>
-                    5
-                </td>
-           </tr>
 
-    </table>
+<body>
+    <h1>Tabla de la Liga</h1>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Posició</th>
+                    <th>Equip</th>
+                    <th>Punts</th>
+                    <th>Partits Jugados</th>
+                    <th>Partits Guanyats</th>
+                    <th>Partits Empatats</th>
+                    <th>Partits Perduts</th>
+                    <th>Gols a favor</th>
+                    <th>Gols en contra</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="champions">
+                    <td>1</td>
+                    <td>Real Madrid</td>
+                    <td>68</td>
+                    <td>31</td>
+                    <td>20</td>
+                    <td>8</td>
+                    <td>3</td>
+                    <td>59</td>
+                    <td>21</td>
+                </tr>
+                <tr class="champions">
+                    <td>2</td>
+                    <td>Barcelona</td>
+                    <td>68</td>
+                    <td>31</td>
+                    <td>21</td>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>70</td>
+                    <td>31</td>
+                </tr>
+                <tr class="champions">
+                    <td>3</td>
+                    <td>Atlético</td>
+                    <td>55</td>
+                    <td>31</td>
+                    <td>14</td>
+                    <td>13</td>
+                    <td>4</td>
+                    <td>39</td>
+                    <td>22</td>
+                </tr>
+                <tr class="champions">
+                    <td>4</td>
+                    <td>Sevilla</td>
+                    <td>53</td>
+                    <td>31</td>
+                    <td>14</td>
+                    <td>11</td>
+                    <td>6</td>
+                    <td>44</td>
+                    <td>32</td>
+                </tr>
+                <tr class="uefa">
+                    <td>5</td>
+                    <td>Getafe</td>
+                    <td>49</td>
+                    <td>31</td>
+                    <td>13</td>
+                    <td>10</td>
+                    <td>8</td>
+                    <td>40</td>
+                    <td>29</td>
+                </tr>
+                <tr class="uefa">
+                    <td>6</td>
+                    <td>Villarreal</td>
+                    <td>48</td>
+                    <td>31</td>
+                    <td>14</td>
+                    <td>6</td>
+                    <td>11</td>
+                    <td>49</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Real Sociedad</td>
+                    <td>47</td>
+                    <td>31</td>
+                    <td>14</td>
+                    <td>5</td>
+                    <td>12</td>
+                    <td>47</td>
+                    <td>39</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Valencia</td>
+                    <td>46</td>
+                    <td>31</td>
+                    <td>12</td>
+                    <td>10</td>
+                    <td>9</td>
+                    <td>41</td>
+                    <td>44</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Granada</td>
+                    <td>43</td>
+                    <td>31</td>
+                    <td>12</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>37</td>
+                    <td>36</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Athletic</td>
+                    <td>42</td>
+                    <td>31</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>9</td>
+                    <td>33</td>
+                    <td>27</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td>Osasuna</td>
+                    <td>38</td>
+                    <td>31</td>
+                    <td>9</td>
+                    <td>11</td>
+                    <td>11</td>
+                    <td>36</td>
+                    <td>46</td>
+                </tr>
+                <tr>
+                    <td>12</td>
+                    <td>Levante</td>
+                    <td>38</td>
+                    <td>31</td>
+                    <td>11</td>
+                    <td>5</td>
+                    <td>15</td>
+                    <td>37</td>
+                    <td>44</td>
+                </tr>
+                <tr>
+                    <td>13</td>
+                    <td>Betis</td>
+                    <td>37</td>
+                    <td>31</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>41</td>
+                    <td>48</td>
+                </tr>
+                <tr>
+                    <td>14</td>
+                    <td>Alavés</td>
+                    <td>35</td>
+                    <td>31</td>
+                    <td>9</td>
+                    <td>8</td>
+                    <td>14</td>
+                    <td>31</td>
+                    <td>46</td>
+                </tr>
+                <tr>
+                    <td>15</td>
+                    <td>Valladolid</td>
+                    <td>34</td>
+                    <td>31</td>
+                    <td>7</td>
+                    <td>13</td>
+                    <td>11</td>
+                    <td>26</td>
+                    <td>36</td>
+                </tr>
+                <tr>
+                    <td>16</td>
+                    <td>Celta</td>
+                    <td>33</td>
+                    <td>31</td>
+                    <td>7</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>29</td>
+                    <td>35</td>
+                </tr>
+                <tr>
+                    <td>17</td>
+                    <td>Eibar</td>
+                    <td>32</td>
+                    <td>31</td>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>15</td>
+                    <td>32</td>
+                    <td>47</td>
+                </tr>
+                <tr class="eliminat">
+                    <td>18</td>
+                    <td>Mallorca</td>
+                    <td>26</td>
+                    <td>31</td>
+                    <td>7</td>
+                    <td>5</td>
+                    <td>19</td>
+                    <td>29</td>
+                    <td>52</td>
+                </tr>
+                <tr class="eliminat">
+                    <td>19</td>
+                    <td>Leganés</td>
+                    <td>25</td>
+                    <td>31</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>16</td>
+                    <td>23</td>
+                    <td>44</td>
+                </tr>
+                <tr class="eliminat">
+                    <td>20</td>
+                    <td>Espanyol</td>
+                    <td>24</td>
+                    <td>31</td>
+                    <td>5</td>
+                    <td>9</td>
+                    <td>17</td>
+                    <td>26</td>
+                    <td>50</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
 </body>
+
 </html>
