@@ -52,18 +52,18 @@ body {
 
 .img1 img {
     width: 100%;
-    content: url("/Mariona_Claros/imatges/img1sessio5.png");
+    content: url("../imatges/img1sessio5.png");
 }
 
 .img1 img:hover {
-    content: url("/Mariona_Claros/imatges/img1Rollersessio5.png");
+    content: url("../imatges/img1Rollersessio5.png");
 }
 
 .img2 img {
     width: 100%;
-    content: url("/Mariona_Claros/imatges/img2sessio5.png");
+    content: url("../imatges/img2sessio5.png");
 }
 
 .img2 img:hover {
-    content: url("/Mariona_Claros/imatges/img2Rollersessio5.png");
+    content: url("../imatges/img2Rollersessio5.png");
 }

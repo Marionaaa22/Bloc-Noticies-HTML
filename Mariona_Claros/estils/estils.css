@@ -50,19 +50,20 @@ body {
     color: #2980b9;
 }
 
-.img1 img,
-.img2 img {
+.img1 img {
     width: 100%;
-    display: block;
+    content: url("../imatges/img1sessio5.png");
 }
 
 .img1 img:hover {
-    transform: scale(1.08);
+    content: url("../imatges/img1Rollersessio5.png");
+}
 
-
+.img2 img {
+    width: 100%;
+    content: url("../imatges/img2sessio5.png");
 }
 
 .img2 img:hover {
-    transform: scale(1.08);
-
+    content: url("../imatges/img2Rollersessio5.png");
 }
