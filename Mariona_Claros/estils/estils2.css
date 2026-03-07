@@ -67,3 +67,11 @@ body {
 .img2 img:hover {
     content: url("../imatges/img2Rollersessio5.png");
 }
+
+.formulari {
+    clear: both;
+    width: 760px;
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin-top: 20px;
+}
