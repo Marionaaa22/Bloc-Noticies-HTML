@@ -50,20 +50,19 @@ body {
     color: #2980b9;
 }
 
-.img1 img {
+.img1 img,
+.img2 img {
     width: 100%;
-    content: url("/Mariona_Claros/imatges/img1sessio5.png");
+    display: block;
 }
 
 .img1 img:hover {
-    content: url("/Mariona_Claros/imatges/img1Rollersessio5.png");
-}
+    transform: scale(1.08);
 
-.img2 img {
-    width: 100%;
-    content: url("/Mariona_Claros/imatges/img2sessio5.png");
+
 }
 
 .img2 img:hover {
-    content: url("/Mariona_Claros/imatges/img2Rollersessio5.png");
+    transform: scale(1.08);
+
 }
